@@ -6,6 +6,6 @@ function sendMail(){
     message: document.getElementById("message").value,
   }
 
-  emailjs("service_nic3tfc","template_wfffcks",parms).then(alert("Email SENT!"))
+  emailjs.send("service_nic3tfc","template_wfffcks",parms).then(alert("Email SENT!"))
 }
     
