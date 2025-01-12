@@ -13,4 +13,7 @@ function subscribe(){
   let sub ={
     email_id : document.getElementById("email").value.
       }
-  emailjs.send("service_nic3tfc","template_pwqtriz",sub).then(alert("You have Subscribed to TheMarketHive"))
+      emailjs.send("service_nic3tfc","template_pwqtriz",sub).then(alert("You have Subscribed to TheMarketHive"))
+
+}
+  
